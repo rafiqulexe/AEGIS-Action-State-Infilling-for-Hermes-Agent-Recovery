@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Data and model weights (kept outside git)
+data/*
+!data/.gitkeep
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.gguf
+runs/
+wandb/
+
+# Office lock files
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

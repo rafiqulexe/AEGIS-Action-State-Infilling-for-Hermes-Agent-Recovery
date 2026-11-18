@@ -1,0 +1,23 @@
+# Each folder's owner is added as a reviewer on PRs that touch it.
+# Replace SAFIA_GITHUB and MAHIN_GITHUB with real GitHub usernames once they join the repo.
+
+*                   @rafiqulexe
+
+# Shared contracts: all three review
+/aegis/schemas/     @rafiqulexe @SAFIA_GITHUB @MAHIN_GITHUB
+
+# M1 - Md. Rafiqul Islam: systems
+/aegis/proxy/       @rafiqulexe
+/aegis/core/        @rafiqulexe
+/demo/              @rafiqulexe
+
+# M2 - Syeda Safia Akhter: benchmark
+/bench/             @SAFIA_GITHUB
+/baselines/         @SAFIA_GITHUB
+/eval/              @SAFIA_GITHUB
+
+# M3 - S. M. Mahin: models
+/aegis/models/      @MAHIN_GITHUB
+/training/          @MAHIN_GITHUB
+
+/.github/           @rafiqulexe
